@@ -24,7 +24,7 @@ const product = new mongoose.Schema({
     },
 
     createdAt: {
-        type: String,
+        type :Date,
         required: true,
     },
 });

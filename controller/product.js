@@ -10,8 +10,10 @@ exports.postproducts = async (req, res, next) => {
             .status(400)
             .json({ error: '데이터 형식이 올바르지 않습니다' });
     }
+    
 
     const createdAt = new Date();
+ 
     const status = 'FOR_SALE';
 
     await product.create({

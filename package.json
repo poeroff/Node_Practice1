@@ -7,7 +7,7 @@
     "mongoose": "^8.0.0",
     "nodemon": "^3.0.1"
   },
-  "name": "node_practice1",
+  "name": "mongo",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -18,8 +18,16 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "prettier": "^3.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poeroff/Node_practice1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/poeroff/Node_practice1/issues"
+  },
+  "homepage": "https://github.com/poeroff/Node_practice1#readme",
+  "description": ""
 }
